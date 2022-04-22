@@ -230,7 +230,7 @@ namespace ProyectoFinalDCU_Felix_Ortega_2021_0825_
 
             if (rd != null)
             {
-                int i = int.Parse(txtid.Text);
+                
                 string consulta = "DELETE  FROM datos where id = ' " + i + " ' ";
                 SqlCommand cmd1 = new SqlCommand(consulta, Conexion.conectar());
                 cmd1.ExecuteNonQuery();

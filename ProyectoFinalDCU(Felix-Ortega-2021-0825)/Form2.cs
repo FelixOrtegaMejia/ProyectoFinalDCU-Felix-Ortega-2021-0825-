@@ -284,5 +284,15 @@ namespace ProyectoFinalDCU_Felix_Ortega_2021_0825_
                 MessageBox.Show("Entidad No Encontrada");
             }
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            txtid.Text = "";
+            txtnombre.Text = "";
+            txtcorreo.Text = "";
+            txttelefono.Text = "";
+            pictobox.Image = null;
+            txttexto.Text = "";
+        }
     }
 }

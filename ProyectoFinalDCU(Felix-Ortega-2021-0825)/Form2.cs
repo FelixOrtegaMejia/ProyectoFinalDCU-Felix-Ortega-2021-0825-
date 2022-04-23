@@ -303,5 +303,10 @@ namespace ProyectoFinalDCU_Felix_Ortega_2021_0825_
             pictobox.Image = null;
             txttexto.Text = "";
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = LlenarTable();
+        }
     }
 }

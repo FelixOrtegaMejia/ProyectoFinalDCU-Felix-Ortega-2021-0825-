@@ -60,7 +60,8 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.txttexto = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnnuevo = new System.Windows.Forms.Button();
+            this.btnrefrescar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.datosBindingSource)).BeginInit();
@@ -352,19 +353,33 @@
             this.label7.Text = "Texto";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // button1
+            // btnnuevo
             // 
-            this.button1.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(975, 137);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 36);
-            this.button1.TabIndex = 26;
-            this.button1.Text = "Nuevo";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.btnnuevo.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnnuevo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnnuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
+            this.btnnuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnnuevo.Location = new System.Drawing.Point(975, 137);
+            this.btnnuevo.Name = "btnnuevo";
+            this.btnnuevo.Size = new System.Drawing.Size(96, 36);
+            this.btnnuevo.TabIndex = 26;
+            this.btnnuevo.Text = "Nuevo";
+            this.btnnuevo.UseVisualStyleBackColor = false;
+            this.btnnuevo.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // btnrefrescar
+            // 
+            this.btnrefrescar.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnrefrescar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.PaleTurquoise;
+            this.btnrefrescar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCyan;
+            this.btnrefrescar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnrefrescar.Location = new System.Drawing.Point(975, 201);
+            this.btnrefrescar.Name = "btnrefrescar";
+            this.btnrefrescar.Size = new System.Drawing.Size(96, 36);
+            this.btnrefrescar.TabIndex = 27;
+            this.btnrefrescar.Text = "Refrescar";
+            this.btnrefrescar.UseVisualStyleBackColor = false;
+            this.btnrefrescar.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form2
             // 
@@ -372,7 +387,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
             this.ClientSize = new System.Drawing.Size(1111, 648);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnrefrescar);
+            this.Controls.Add(this.btnnuevo);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txttexto);
             this.Controls.Add(this.btnfoto);
@@ -440,6 +456,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.TextBox txttexto;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnnuevo;
+        private System.Windows.Forms.Button btnrefrescar;
     }
 }

@@ -205,6 +205,10 @@ namespace ProyectoFinalDCU_Felix_Ortega_2021_0825_
 
         private void btnsearch_Click(object sender, EventArgs e)
         {
+            try
+            {
+
+            
             Conexion.conectar();
             int i = int.Parse(txtid.Text);
             string consulta = "select * from datos  where id = " + i + ";";
@@ -216,6 +220,11 @@ namespace ProyectoFinalDCU_Felix_Ortega_2021_0825_
             SqlDataReader leer;
 
             leer = cmd.ExecuteReader();
+            }
+            catch(Exception ee)
+            {
+                MessageBox.Show(ee.Message);
+            }
         }
 
         private void btndelete_Click(object sender, EventArgs e)

@@ -72,5 +72,11 @@ namespace ProyectoFinalDCU_Felix_Ortega_2021_0825_
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Ayuda ayd = new Ayuda();
+            ayd.Show();
+        }
     }
 }

@@ -117,23 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Invitado" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Invitado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="book2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\book2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shield" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pregunta" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pregunta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Preguntas Frecuentes (FAQ)
+
+---------------------------------------------------------------------------------
+
+P - Como añado una fila?
+
+R - Se debe siempre llenar los campos requeridos como el id y el nombre.
+Luego se presiona el boton de añadir.
+
+---------------------------------------------------------------------------------
+
+P- Como puedo ver todas las filas otra vez despues de hacer una busqueda?
+
+R- Para consultar todas las filas se debe presionar el boton "Actualizar"
+
+---------------------------------------------------------------------------------
+
+P - Me sale un error cuando intento añadir un usuario.
+
+R- Los mas posible es que estes usando un ID ya existente, o que no se hayan
+completados todos los campos.</value>
   </data>
 </root>
